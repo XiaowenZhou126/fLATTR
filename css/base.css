@@ -1,0 +1,27 @@
+body,header,nav,section,aside,footer,div,p,ul,dl,dt,dd,img,h3,input{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size:12px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.fL{
+    float: left;
+}
+.fR{
+    float: right;
+}
+.clearFix:before, .clearFix:after{
+    overflow: hidden;
+    display: table;
+    visibility: hidden;
+    content: '';
+    clear: both;
+}

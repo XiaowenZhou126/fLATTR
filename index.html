@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>首页</title>
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/homePage.css">
+  <link rel="stylesheet" href="./other/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./other/FontAwesome/font-awesome.min.css">
+  <script src="./other/bootstrap/js/jquery-3.2.1.min.js"></script>
+  <script src="./other/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img src="./images/0.png" alt="Brand">
+      </a>
+      <button id="btn" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#ourApproach">About the App</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Services
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Skips</a></li>
+            <li><a href="#">Junk Removal</a></li>
+            <li><a href="#">Appliances</a></li>
+            <li><a href="#">Furniture</a></li>
+            <li><a href="#">Other Items</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Become a Partner</a></li>
+        <li><a href="#">Invest in us</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="getTheApp"><a href="#">GET THE APP</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+<section>
+  <div id="mainCarousel" class="carousel slide banner" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="item  active">
+        <h1>24 Hour waste removal</h1>
+        <hr width="220px">
+        <h3>Be Responsible</h3>
+      </div>
+      <div class="item">
+        <h1>Revolutionising Waste - We Recycle 93%</h1>
+        <hr width="430px">
+        <h3>YOU CLICK. WE COLLECT</h3>
+      </div>
+    </div>
+  </div>
+  <div class="download">
+    <a href="#">DOWNLOAD THE APP</a>
+  </div>
+</section>
+<section class="container-fluid ourApproach">
+  <div class="row">
+    <h3 class="col-md-4 col-md-offset-4">OUR APPROACH</h3>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="ourApproach-img">
+        <i class="fa fa-camera-retro fa-2x"></i>
+      </div>
+      <div class="ourApproach-title">
+        Technology
+      </div>
+      <div class="ourApproach-content">
+        We use our iOs mobile app with our in-house tech to connect you to the nearest supplier of services. We are the
+        ‘uber’ for waste. No more flicking through google or worrying if the guy picking up your goods is licensed.
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="ourApproach-img">
+        <i class="fa fa-codepen fa-2x"></i>
+      </div>
+      <div class="ourApproach-title">
+        Efficiency
+      </div>
+      <div class="ourApproach-content">
+        We offer a guaranteed 24 hour delivery and can often come the same day. Working? schedule a pick up for that old
+        fridge by selecting a time and date suitable for you. No more waiting around
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="ourApproach-img">
+        <!--<i class="fa fa-desktop"></i>-->
+        <i class="fa fa-desktop fa-2x"></i>
+      </div>
+      <div class="ourApproach-title">
+        Sustainability
+      </div>
+      <div class="ourApproach-content">
+        We recycle 94% of the waste we collect. We offer a reliable sustainable solution. Fly tipping incidents in
+        london exceeded 350,000 last year and costs the UK taxpayer £600m a year, as well as being unethical we want to
+        stamp this out.
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+<section class="container forCustomers" id="ourApproach">
+  <div class="row">
+    <h3 class="col-md-4 col-md-offset-4">FOR CUSTOMERS</h3>
+  </div>
+  <div class="row forCustomers-smallTitle">
+    <h4 class="col-md-10 col-md-offset-1">Got Junk or need a Skip? Download the app, select location and arrange
+      collection with a licensed carrier.
+      <br>
+      No fly tipping or cowboys here!
+    </h4>
+  </div>
+  <div class="row forCustomers-imgArea">
+    <div class="col-md-4">
+      <img src="./images/Postcode-576x1024.jpg" alt="postcode">
+    </div>
+    <div class="col-md-4">
+      <img src="./images/Skips-576x1024.jpg" alt="skips">
+    </div>
+    <div class="col-md-4">
+      <img src="./images/Basket-Skip-584x1024.jpg" alt="basket-Skip">
+    </div>
+  </div>
+  <div class="row">
+    <h3 class="col-md-4 col-md-offset-4">FOR PARTNERS</h3>
+  </div>
+  <div class="row forCustomers-smallTitle">
+    <h4 class="col-md-10 col-md-offset-1">We connect customers with you. If you’re a registered waste carrier you can
+      sign up, get verified and start collecting waste straight away through our platform.
+    </h4>
+  </div>
+  <div class="row forCustomers-connect">
+    <div class="col-md-4">
+      <div class="ourApproach-img">
+        <a href="views/signUp.html"><i class="fa fa-globe fa-2x"></i></a>
+      </div>
+      Sign up
+    </div>
+    <div class="col-md-4">
+      <div class="ourApproach-img">
+        <a href="views/signIn.html"><i class="fa fa-coffee fa-2x"></i></a>
+      </div>
+      Log on
+    </div>
+    <div class="col-md-4">
+      <div class="ourApproach-img">
+        <i class="fa fa-cogs fa-2x"></i>
+      </div>
+      Begin collecting waste
+    </div>
+  </div>
+</section>
+
+<script>
+    $(document).ready(function () {
+
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+$a: 12px;
+.container-fluid {
+  margin-top: 20px;
+}
+
+form {
+  padding: 0 20px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #E6E6E6;
+
+  h3 {
+    margin: 20px 0;
+    padding: 20px 0;
+    letter-spacing: 2px;
+    background-color: #FEFCFC;
+  }
+  .has-feedback span {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+  }
+  .account, .pwdOne, .pwdTwo, .submit {
+    padding: 0 10px;
+    height: 50px;
+    line-height: 50px;
+  }
+  .account, .pwdOne, .pwdTwo {
+    border-radius: 25px;
+    border: 1px solid #E6E6E6;
+  }
+  .submit {
+    width: 90%;
+    background-color: #17A88B;
+    color: #ffffff;
+    border-radius: 5px;
+    &:hover {
+      background-color: #149278;
+    }
+  }
+  hr, .sign {
+    width: 95%;
+  }
+}

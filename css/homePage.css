@@ -1,0 +1,81 @@
+.navbar-header {
+  height: 100px; }
+  .navbar-header .navbar-brand {
+    height: 100%; }
+    .navbar-header .navbar-brand img {
+      height: 100%; }
+
+.navbar-right {
+  margin-right: 30px !important; }
+  .navbar-right li {
+    margin-top: 25px; }
+  .navbar-right > li > a {
+    color: #ffffff !important;
+    font-weight: bolder; }
+  .navbar-right > li > a:hover {
+    color: #17A88B !important; }
+  .navbar-right .getTheApp a {
+    background-color: #17A88B; }
+    .navbar-right .getTheApp a:hover {
+      background-color: #ffffff; }
+
+.banner {
+  text-align: center; }
+  .banner hr {
+    background-color: #17A88B;
+    height: 1px; }
+  .banner h1 {
+    font-size: 56px; }
+
+.download {
+  text-align: center;
+  margin-top: 50px; }
+  .download a {
+    display: inline-block;
+    padding: 0 20px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 5px;
+    background-color: #17A88B;
+    color: #ffffff; }
+    .download a:hover {
+      background-color: transparent;
+      color: #17A88B;
+      border: 1px solid #17A88B;
+      text-decoration: none; }
+
+.ourApproach {
+  padding: 80px; }
+  .ourApproach h3 {
+    text-align: center; }
+  .ourApproach-title, .ourApproach-content {
+    text-align: center; }
+  .ourApproach-title {
+    font-size: 18px; }
+  .ourApproach-img {
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 1px solid #17A88B;
+    color: #17A88B; }
+    .ourApproach-img a {
+      color: #17A88B; }
+      .ourApproach-img a:hover {
+        color: #17A88B; }
+
+.forCustomers {
+  padding: 20px; }
+  .forCustomers h3, .forCustomers h4 {
+    text-align: center;
+    line-height: 20px; }
+  .forCustomers-imgArea {
+    margin: 40px 0; }
+    .forCustomers-imgArea img {
+      width: 100%; }
+  .forCustomers-connect {
+    text-align: center; }
+
+/*# sourceMappingURL=homePage.css.map */
