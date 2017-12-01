@@ -1,7 +1,6 @@
 .jumbotron {
-  padding: 0 0 48px !important;
   background: url("../images/homescreen.jpeg.jpg") no-repeat fixed;
-  background-size: 100%;
+  background-size: 100% 100%;
   overflow: hidden; }
 
 .navbar-header {
@@ -53,11 +52,11 @@
     height: 1px; }
   .banner h1 {
     margin-top: 80px;
-    font-size: 56px; }
-    @media screen and (max-width: 800px) {
+    font-size: 48px !important; }
+    @media screen and (max-width: 968px) {
       .banner h1 {
         margin-top: 20px;
-        font-size: 28px; } }
+        font-size: 28px !important; } }
 
 .download {
   text-align: center;
