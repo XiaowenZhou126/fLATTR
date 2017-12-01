@@ -34,7 +34,8 @@
         <div class="help-block with-errors"></div>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" class="pwdTwo form-control" name="pwdTwo" placeholder="Password" required data-match=".pwdOne" data-match-error="Whoops, these don't match" >
+        <input type="password" class="pwdTwo form-control" name="pwdTwo" placeholder="Confirm Password" required
+               data-match=".pwdOne" data-match-error="两次输入的密码不一致">
         <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
         <div class="help-block with-errors"></div>
       </div>
@@ -49,7 +50,6 @@
 </div>
 <script>
     $(document).ready(function () {
-
         $('#form').validator({
             feedback: {
                 success: 'glyphicon-ok',

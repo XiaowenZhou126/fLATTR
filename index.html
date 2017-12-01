@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="./css/homePage.css">
   <link rel="stylesheet" href="./other/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="./other/FontAwesome/font-awesome.min.css">
+  <link rel="stylesheet" href="./other/Animate/animate.min.css">
   <script src="./other/bootstrap/js/jquery-3.2.1.min.js"></script>
   <script src="./other/bootstrap/js/bootstrap.min.js"></script>
-  <script src="./other/Animate/animate.min.css"></script>
 </head>
 <body>
 <div class="jumbotron">
@@ -155,13 +155,13 @@
       Sign up
     </div>
     <div class="col-md-4">
-      <div class="ourApproach-img">
-        <a href="views/signIn.html"><i class="fa fa-coffee fa-2x rotateln"></i></a>
+      <div class="ourApproach-img ">
+        <a href="views/signIn.html"><i class="fa fa-coffee fa-2x"></i></a>
       </div>
       Log on
     </div>
     <div class="col-md-4">
-      <div class="ourApproach-img">
+      <div class="ourApproach-img ">
         <i class="fa fa-cogs fa-2x"></i>
       </div>
       Begin collecting waste
@@ -222,7 +222,7 @@
     $(document).ready(function () {
         var ourApproach_height = $(".ourApproach").offset().top;
         var navbar_height = $("#mainCarousel").offset().top;
-        $(".jumbotron").height($(window).height());
+        $(".jumbotron").height($(window).height()-50);
         $("#btn").click(function () {
             $(".nav-r").addClass("btn-click");
         });
@@ -250,7 +250,11 @@
             $(this).find('span').removeClass("fa fa-angle-up")
                 .addClass("fa fa-angle-down");
         });
-
+        $(".ourApproach-img").mouseenter(function () {
+            $(this).addClass("animated rotateIn");
+        }).mouseleave(function () {
+            $(this).removeClass("animated rotateIn");
+        })
     });
 </script>
 </body>

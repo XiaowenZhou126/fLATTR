@@ -37,6 +37,9 @@
 </div>
 <script>
     $(document).ready(function() {
+        if(typeof(Storage)!=="undefined" && localStorage.account){
+            $(".account").val(localStorage.account);
+        }
         $('form').validator({
             feedback: {
                 success: 'glyphicon-ok',
@@ -49,6 +52,9 @@
             return false;
         } else {
             console.log('能提交');
+            if(typeof(Storage)!=="undefined"){
+                localStorage.account=$(".account").val();
+            }
             return true;
         }
     });
