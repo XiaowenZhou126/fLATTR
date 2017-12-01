@@ -1,35 +1,63 @@
+.jumbotron {
+  padding: 0 0 48px !important;
+  background: url("../images/homescreen.jpeg.jpg") no-repeat fixed;
+  background-size: 100%;
+  overflow: hidden; }
+
 .navbar-header {
   height: 100px; }
   .navbar-header .navbar-brand {
     height: 100%; }
     .navbar-header .navbar-brand img {
       height: 100%; }
+  .navbar-header button .icon-bar {
+    background-color: #ffffff; }
 
-.navbar-right {
-  margin-right: 30px !important; }
-  .navbar-right li {
-    margin-top: 25px; }
-  .navbar-right > li > a {
+.nav-r {
+  margin-right: 30px !important;
+  margin-top: 25px !important; }
+  .nav-r > li > a {
+    background-color: transparent !important;
     color: #ffffff !important;
     font-weight: bolder; }
-  .navbar-right > li > a:hover {
-    color: #17A88B !important; }
-  .navbar-right .getTheApp a {
+    .nav-r > li > a:hover {
+      color: #17A88B !important; }
+  .nav-r > li > ul {
+    padding: 0 0;
+    width: 150px; }
+    .nav-r > li > ul a {
+      line-height: 30px;
+      background-color: #000000 !important;
+      color: #ffffff !important; }
+      .nav-r > li > ul a:hover {
+        background-color: #17A88B !important; }
+  .nav-r li.divider {
+    margin: 0 0; }
+  .nav-r .getTheApp {
     background-color: #17A88B; }
-    .navbar-right .getTheApp a:hover {
+    .nav-r .getTheApp:hover {
       background-color: #ffffff; }
 
+.btn-click {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 160px;
+  background-color: #000000 !important; }
+
 .banner {
-  text-align: center; }
+  text-align: center;
+  color: #ffffff; }
   .banner hr {
     background-color: #17A88B;
     height: 1px; }
   .banner h1 {
+    margin-top: 80px;
     font-size: 56px; }
 
 .download {
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 100px; }
   .download a {
     display: inline-block;
     padding: 0 20px;
@@ -77,5 +105,64 @@
       width: 100%; }
   .forCustomers-connect {
     text-align: center; }
+
+.showData {
+  padding: 30px 0;
+  text-align: center;
+  background-color: #08ABA6;
+  color: #ffffff; }
+  .showData-num {
+    font-size: 36px; }
+
+.contact {
+  height: 150px;
+  line-height: 150px;
+  background-color: #05585C;
+  color: #ffffff;
+  font-size: 24px; }
+  .contact a {
+    padding: 20px 40px;
+    border: 1px solid #06A8A6;
+    border-radius: 5px;
+    color: #06A8A6; }
+    .contact a:hover {
+      background-color: #06A8A6;
+      color: #ffffff;
+      text-decoration: none; }
+
+.go-top {
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #08ABA6;
+  color: #ffffff; }
+  .go-top:hover {
+    background-color: #ffffff;
+    color: #08ABA6; }
+
+.footer-instruct {
+  padding: 30px 0;
+  background-color: #252525;
+  color: #ffffff; }
+  .footer-instruct img {
+    width: 60%; }
+  .footer-instruct a {
+    color: #ffffff; }
+    .footer-instruct a:hover {
+      color: #ffffff;
+      text-decoration: none; }
+  .footer-instruct p {
+    margin: 10px 0 !important; }
+.footer-copy {
+  height: 50px;
+  line-height: 50px;
+  background-color: #1C1C1C;
+  color: #666666; }
 
 /*# sourceMappingURL=homePage.css.map */
