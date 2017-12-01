@@ -7,7 +7,7 @@ $g08ABA6: #08ABA6;
 .jumbotron {
   padding: 0 0 48px !important;
   background: url("../images/homescreen.jpeg.jpg") no-repeat fixed;
-  background-size: 100% 0;
+  background-size: 100%;
   overflow: hidden;
 }
 
@@ -79,12 +79,19 @@ $g08ABA6: #08ABA6;
   h1 {
     margin-top: 80px;
     font-size: 56px;
+    @media screen and (max-width: 800px){
+      margin-top: 20px;
+      font-size: 28px;
+    }
   }
 }
 
 .download {
   text-align: center;
   margin-top: 100px;
+  @media screen and (max-width: 800px){
+    margin-top: 40px;
+  }
   a {
     display: inline-block;
     padding: 0 20px;
@@ -158,14 +165,20 @@ $g08ABA6: #08ABA6;
   }
 }
 
+$h-max:150px;
+$h-min:100px;
 .contact {
-  height: 150px;
-  line-height: 150px;
+  height: $h-min;
+  line-height: $h-min;
   background-color: #05585C;
   color: $white;
-  font-size: 24px;
+  @media screen and (min-width: 800px){
+    font-size: 24px;
+    height:$h-max;
+    line-height:$h-max;
+  }
   a {
-    padding: 20px 40px;
+    padding: 3px 6px;
     border: 1px solid $g06A8A6;
     border-radius: 5px;
     color: $g06A8A6;
@@ -174,9 +187,11 @@ $g08ABA6: #08ABA6;
       color: $white;
       text-decoration: none;
     }
+    @media screen and (min-width: 800px){
+      padding: 20px 40px;
+    }
   }
 }
-
 .go-top {
   display: none;
   position: fixed;
